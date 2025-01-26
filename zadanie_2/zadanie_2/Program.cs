@@ -315,7 +315,7 @@ namespace zadanie_2
             Console.WriteLine("Введите значение - t7");
             t7 = Convert.ToDouble(Console.ReadLine());
 
-            S = (4.351*Math.Pow(y21,3)+ 2 * t7 * Math.Log(t7))/(Math.Sqrt(Math.Cos(2*y)+4.351));
+            S = (4.351*Math.Pow(y21,3)+ 2 * t7 * Math.Log(t7))/(Math.Sqrt(Math.Cos(2*y21)+4.351));
             Console.WriteLine($"S={S}");
 
 
@@ -330,7 +330,7 @@ namespace zadanie_2
             Console.WriteLine("Введите значение - e8");
             e8 = Convert.ToDouble(Console.ReadLine());
 
-            R3 = (Math.Pow(Math.Sin(y),2)+0.3 * d3)/(Math.Pow(e8,y22) + Math.Log(d3));
+            R3 = (Math.Pow(Math.Sin(y22),2)+0.3 * d3)/(Math.Pow(e8,y22) + Math.Log(d3));
             Console.WriteLine($"R3={R3}");
 
 
@@ -371,7 +371,7 @@ namespace zadanie_2
             Console.WriteLine("Введите значение - y24");
             y24 = Convert.ToDouble(Console.ReadLine());
 
-            T2 = (Math.Sin(2u))/(Math.Log(2*y24+u));
+            T2 = (Math.Sin(2*u))/(Math.Log(2*y24+u));
             Console.WriteLine($"T2={T2}");
 
 
